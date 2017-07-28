@@ -24,4 +24,19 @@
   html,body,#app
     width 100%
     height 100%
+    background #fff
+  em,i,strong
+    font-style normal
+  h1,h2,h3,h4,h5,h6
+    font-weight normal
+  .fl
+    float left
+  .fr
+    float right
+  .cl:after
+    content ''
+    display block
+    height 0
+    clear both
+    visibility hidden
 </style>
